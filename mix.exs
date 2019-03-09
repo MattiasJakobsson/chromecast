@@ -31,15 +31,15 @@ defmodule Chromecast.Mixfile do
       files: ["lib", "proto", "mix.exs", "README*", "LICENSE*"],
       maintainers: ["Christopher Steven Coté"],
       licenses: ["MIT License"],
-      links: %{"GitHub" => "https://github.com/NationalAssociationOfRealtors/chromecast",
-          "Docs" => "https://github.com/NationalAssociationOfRealtors/chromecast"}
+      links: %{"GitHub" => "https://github.com/MattiasJakobsson/chromecast",
+          "Docs" => "https://github.com/MattiasJakobsson/chromecast"}
     ]
   end
 
   defp deps do
     [
         {:exprotobuf, "~> 1.1.0"},
-        {:poison, "~> 2.2.0"},
+        {:poison, "~> 3.1"},
         {:ex_doc, ">= 0.0.0", only: :dev}
     ]
   end
